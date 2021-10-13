@@ -1,0 +1,274 @@
+*{
+  
+    font-family: 'Harmattan', sans-serif;
+    list-style-type: none;
+}
+
+
+ .maen-ul p{
+     padding-top: 2px;
+ }
+ .maen-ul {
+    margin-top: 0;
+    background-color: #292d2d;
+    color: #ffffff;
+ 
+    overflow: hidden;
+    text-align: center;
+}
+.li-mean {
+    float: right;
+}
+.a-mean{
+    text-decoration: none;
+    color: #ffffff;
+    font-size:20px;
+    display: block;
+    padding:17px ;
+}
+
+ a:hover{
+    background-color: black;
+    color: aquamarine;
+}
+.title-mean:hover{
+    text-align: center;
+    color: aquamarine;
+}
+.title-mean{
+    padding-left: 160px;
+    font-size: 40px; display: inline;
+}
+/********** start column****/
+.column{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.social-media{
+    padding-left: 260px;
+}
+.social-media ul{
+    position: relative;
+    display: flex;
+}
+
+.social-media ul li{
+    position: relative;
+    list-style: none;
+}
+.social-media ul li a{
+   position: relative;
+   width: 16px;
+   height: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #fff;
+   margin: 0 15px;
+   text-decoration: none;
+   font-size: 15px;
+   border-radius: 50%;
+color: #e2e2e2;
+box-shadow: inset -1px -1px 2px rgba(0,0,0,0.2),2px 2px 5px rgba(0,0,0,0.2);
+transition: 0.55;
+}
+.social-media ul li a:hover{
+    color: #999;
+    transform: translateY(-5px);
+    box-shadow: inset -1px -1px 2px rgba(0,0,0,0.2),2px 24px 10px rgba(0,0,0,0.2);
+    
+}
+    
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 4px solid #292d2d;
+}
+.column p{
+    padding-left: 50px;
+}
+.social{
+    border-radius: 300px;
+    width:24px;
+  
+}
+
+.left{
+    width: 20%;
+    float: left;
+
+}
+.right{
+    width: 80%;
+    float: left;
+
+}
+.row{
+  padding: 7px;
+}
+.row:after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.main-bar{
+    background-color: grey;
+    display: block;
+    height: 25px;
+   
+}
+.main-bar span{
+    background-color: teal;
+    height: 25px;
+    display: block;
+    color: white;
+}
+.javascript{
+    width: 90%;
+    animation:javascript 2s;
+}
+.Python{
+    width: 85%;
+    animation:Python 2s;
+
+}
+.Java{
+    width: 70%;
+    animation:Java 2s;
+    
+}
+.JQuery{
+    width: 80%;
+    animation:JQuery 2s;
+}
+.HTML5{
+    width: 94%;
+    animation:HTML5 2s;
+}
+.c__{
+    width: 95%;
+    animation:c__ 2s;
+}
+.GitHub{
+    width: 80%;
+    animation:GitHub 2s;
+}
+.linux{
+    width: 100%;
+    animation:linux 2s;
+}
+@keyframes javascript{
+    0%{
+    width: 0;
+    background-color: tomato;
+    }
+    100%{
+        width: 90%;
+        background-color: violet;
+    }
+}
+@keyframes Python{
+    0%{
+    width: 0;
+    background-color: tomato;
+    }
+    100%{
+        width: 85%;
+        background-color: violet;
+    }
+}
+@keyframes Java{
+    0%{
+    width: 0;
+    background-color: tomato;
+    }
+    100%{
+        width: 70%;
+        background-color: violet;
+    }
+}
+@keyframes JQuery{
+    0%{
+    width: 0;
+    background-color: tomato;
+    }
+    100%{
+        width: 80%;
+        background-color: violet;
+    }
+}
+@keyframes HTML5{
+    0%{
+    width: 0;
+    background-color: tomato;
+    }
+    100%{
+        width: 94%;
+        background-color: violet;
+    }
+}
+@keyframes c__{
+    0%{
+    width: 0;
+    background-color: tomato;
+    }
+    100%{
+        width: 95%;
+        background-color: violet;
+    }
+}
+@keyframes GitHub{
+    0%{
+    width: 0;
+    background-color: tomato;
+    }
+    100%{
+        width: 80%;
+        background-color: violet;
+    }
+}
+@keyframes linux{
+    0%{
+    width: 0;
+    background-color: tomato;
+    }
+    100%{
+        width: 100%;
+        background-color: violet;
+    }
+}
+#row1{
+    margin-bottom: 100px;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color:#292d2d ;
+    text-align: center;
+    color: white;
+}
+.project-items{
+    display: inline-block;
+}
+#pro1{
+    width: 300px;
+    float: right;
+}
+#pro1 img{
+    width: 200px;
+    height: 200px;
+}
+
+#pro1 p{
+
+  
+  
+    overflow: hidden;
+}
+@media screen  and (max-width:800px){
+    .column{
+        width: 100%;
+    }
+}
